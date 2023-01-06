@@ -8,6 +8,5 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="ru.synergy.roomdemonotesapp.AddNoteActivity"
     tools:showIn="@layout/activity_add_note">
-    <!--TODO AddNoteActivity class-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

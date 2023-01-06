@@ -6,7 +6,6 @@
     android:layout_margin="4dp"
     tools:context="ru.synergy.roomdemonotesapp.AddNoteActivity"
     android:orientation="vertical">
-    <!--TODO AddNoteActivity class-->
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/txtInput"
@@ -35,7 +34,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/et_content"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:hint="Content"
                 android:gravity="top"
                 android:singleLine="false"
@@ -47,7 +46,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Save"
-            android:gravity="center"/>
+            android:layout_gravity="center"/>
 
     </LinearLayout>
 

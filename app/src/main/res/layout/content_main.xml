@@ -7,7 +7,6 @@
     android:layout_height="match_parent"
     app:layout_behavior="ru.synergy.roomdemonoteapp.NoteListActivity"
     tools:context="ru.synergy.roomdemonotesapp.NoteListActivity">
-    <!--TODO NoteListActivity class-->
 
     <TextView
         android:id="@+id/tv__empty"
